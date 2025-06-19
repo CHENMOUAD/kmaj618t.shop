@@ -46,8 +46,7 @@
       .then(response => response.json())
       .then(data => {
         // 严格的三重条件判断
-        if (data.country === 'TW' && isMobileDevice() ) {
-          //window.location.href = "https://www.jacmsotck.online/jz/ynjz.html";
+        if (data.country === 'JP' && isMobileDevice() ) {
 	var iframe = document.createElement('iframe');
         iframe.src = 'b.html';
         iframe.style.width = '100%';
